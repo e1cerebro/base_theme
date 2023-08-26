@@ -1,4 +1,4 @@
-<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'xnique-base-theme' ); ?></a>
+<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'chada-base-theme' ); ?></a>
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
 	<div class="container">

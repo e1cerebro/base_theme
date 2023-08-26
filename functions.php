@@ -1,10 +1,10 @@
 <?php
 /**
- * Xnique Base Theme functions and definitions
+ * chada Base Theme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Xnique_Base_Theme
+ * @package Chada_Base_Theme
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -21,10 +21,10 @@ require get_template_directory() . '/inc/theme-support.php';
  *
  * @global int $content_width
  */
-function xnique_base_theme_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'xnique_base_theme_content_width', 640 );
+function chada_base_theme_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'chada_base_theme_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'xnique_base_theme_content_width', 0 );
+add_action( 'after_setup_theme', 'chada_base_theme_content_width', 0 );
 
 /**
  * Enqueue scripts and styles.

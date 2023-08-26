@@ -6,14 +6,14 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function xnique_base_theme_setup() {
+function chada_base_theme_setup() {
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
-		* If you're building a theme based on Xnique Base Theme, use a find and replace
-		* to change 'xnique-base-theme' to the name of your theme in all the template files.
+		* If you're building a theme based on chada Base Theme, use a find and replace
+		* to change 'chada-base-theme' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'xnique-base-theme', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'chada-base-theme', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -36,7 +36,7 @@ function xnique_base_theme_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'xnique-base-theme' ),
+			'menu-1' => esc_html__( 'Primary', 'chada-base-theme' ),
 		)
 	);
 
@@ -61,7 +61,7 @@ function xnique_base_theme_setup() {
 	add_theme_support(
 		'custom-background',
 		apply_filters(
-			'xnique_base_theme_custom_background_args',
+			'chada_base_theme_custom_background_args',
 			array(
 				'default-color' => 'ffffff',
 				'default-image' => '',
@@ -87,4 +87,4 @@ function xnique_base_theme_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'xnique_base_theme_setup' );
+add_action( 'after_setup_theme', 'chada_base_theme_setup' );

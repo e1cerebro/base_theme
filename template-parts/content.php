@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Xnique_Base_Theme
+ * @package Chada_Base_Theme
  */
 
 ?>
@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				xnique_base_theme_posted_on();
-				xnique_base_theme_posted_by();
+				chada_base_theme_posted_on();
+				chada_base_theme_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php xnique_base_theme_post_thumbnail(); ?>
+	<?php chada_base_theme_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -37,7 +37,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'xnique-base-theme' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'chada-base-theme' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -50,7 +50,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'xnique-base-theme' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'chada-base-theme' ),
 				'after'  => '</div>',
 			)
 		);
@@ -58,6 +58,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php xnique_base_theme_entry_footer(); ?>
+		<?php chada_base_theme_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Xnique_Base_Theme
+ * @package Chada_Base_Theme
  */
 
 get_header();
