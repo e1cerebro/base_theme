@@ -1,0 +1,161 @@
+@mixin section-padding-leftright($divisor:1,$map:$section-padding-leftright){
+	@each $key, $value in $map {
+		@include media-breakpoint-up($key) {
+			padding-left: calc(#{$value} / #{$divisor});
+			padding-right: calc(#{$value} / #{$divisor});
+		}
+	}
+}
+
+@mixin section-padding-topbottom($divisor:1,$map:$section-padding-topbottom){
+	@each $key, $value in $map {
+		@include media-breakpoint-up($key) {
+			padding-top: calc(#{$value} / #{$divisor});
+			padding-bottom: calc(#{$value} / #{$divisor});
+		}
+	}
+}
+
+@mixin section-spacing-override($side: right, $type: padding, $divisor: 1, $map:$section-padding-leftright) {
+	@each $key, $value in $map {
+		@include media-breakpoint-up($key) {
+			#{$type}-#{$side}: calc(#{$value} / #{$divisor});
+		}
+	}
+}
+
+@mixin text-size($type){
+	font-size: map-get(map-get($font-sizing, "small"), $type);
+	@include media-breakpoint-up(sm) {
+		font-size: map-get(map-get($font-sizing, "medium"), $type);
+	}
+	@include media-breakpoint-up(md) {
+		font-size: map-get(map-get($font-sizing, "large"), $type);
+	}
+}
+
+@mixin text-size-multiplier($type, $multiplier: 1){
+	font-size: calc(#{map-get(map-get($font-sizing, "small"), $type)} * #{$multiplier});
+	@include media-breakpoint-up(sm) {
+		font-size: calc(#{map-get(map-get($font-sizing, "medium"), $type)} * #{$multiplier});
+	}
+	@include media-breakpoint-up(md) {
+		font-size: calc(#{map-get(map-get($font-sizing, "large"), $type)} * #{$multiplier});
+	}
+}
+
+@mixin extend-past-grid-container-padding($breakpoint:'xs', $side:'both'){
+	@if $side =='both'{
+		@if $breakpoint=='all'{
+			/**
+				extend element the distance of the grid-container padding so that
+				it's flush with left/right edges of the screen
+			*/
+			@each $key, $value in $grid-breakpoints{
+				@include media-breakpoint-only(#{$key}){
+					margin-left: map-get($section-padding-leftright, $key) * -1 !important;
+					margin-right: map-get($section-padding-leftright, $key) * -1 !important;
+
+					// double width to account for extension
+					width:calc(100% + (#{map-get($section-padding-leftright, $key)} * 2)) !important;
+				}
+			}
+
+		} @else {
+			/**
+		extend element the distance of the grid-container padding so that
+		it's flush with left/right edges of the screen
+			*/
+			@include media-breakpoint-only(#{$breakpoint}){
+				margin-left: map-get($section-padding-leftright, $breakpoint) * -1 !important;
+				margin-right: map-get($section-padding-leftright, $breakpoint) * -1 !important;
+
+				// double width to account for extension
+				width:calc(100% + (#{map-get($section-padding-leftright, $breakpoint)} * 2)) !important;
+			}
+		}
+	} @else{
+		@if $breakpoint=='all'{
+			/**
+				extend element the distance of the grid-container padding so that
+				it's flush with left/right edges of the screen
+			*/
+
+			@each $key, $value in $grid-breakpoints{
+				@include media-breakpoint-only(#{$key}){
+					margin-#{$side}: map-get($section-padding-leftright, $key) * -1 !important;
+
+					width:calc(100% + (#{map-get($section-padding-leftright, $key)})) !important;
+				}
+			}
+
+		} @else {
+			/**
+		extend element the distance of the grid-container padding so that
+		it's flush with left/right edges of the screen
+			*/
+			@include media-breakpoint-only(#{$breakpoint}){
+				margin-#{$side}: map-get($section-padding-leftright, $breakpoint) * -1 !important;
+
+				width:calc(100% + (#{map-get($section-padding-leftright, $breakpoint)})) !important;
+			}
+		}
+	}
+}
+
+@mixin aspect-ratio($width:1, $height:1, $overflow_hidden:true) {
+	@supports (aspect-ratio: 1) {
+		position: relative;
+		aspect-ratio: #{$width} / #{$height};
+		@if $overflow_hidden {
+			overflow: hidden;
+		}
+	}
+
+	@supports not (aspect-ratio: 1) {
+		height: 0;
+		padding-top: calc(#{$height} / #{$width} * 100%);
+		position: relative;
+		@if $overflow_hidden {
+			overflow: hidden;
+		}
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+@mixin add-ellipse($lines: 3) {
+	display: -webkit-box;
+	/*! autoprefixer: off */
+	-webkit-box-orient: vertical;
+	/*! autoprefixer: on */
+	-webkit-line-clamp: #{$lines};
+	overflow: hidden;
+	margin-bottom: unset !important;
+}
+
+@mixin overlay($z-index: 1) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: #{$z-index};
+}
+
+@mixin map-attribute-value($attribute: left, $divisor: 1, $map:$section-padding-leftright) {
+	@each $key, $value in $map {
+		@include media-breakpoint-up($key) {
+			#{$attribute}: calc(#{$value} / #{$divisor});
+		}
+	}
+}
+
+@mixin get-gradient($first: $azure, $second: $sky, $deg: 225deg) {
+	background-image: linear-gradient(#{$deg}, #{$first} 0%, #{$second} 100%);
+}

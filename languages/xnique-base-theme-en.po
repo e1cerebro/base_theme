@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-03-27 19:47-0400\n"
+"PO-Revision-Date: 2022-03-27 19:52-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:16
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:190
+msgid "hello"
+msgstr ""
+
+#: functions.php:192
+msgid "Lead"
+msgstr ""
+
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:75
+msgid "import.meta may appear only with 'sourceType: \"module\"'"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:78
+msgid "'import' and 'export' may appear only with 'sourceType: \"module\"'"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:114
+msgid "'arguments' is only allowed in functions and class methods."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:115
+msgid ""
+"Async functions can only be declared at the top level or inside a block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:116
+msgid "Can not use 'await' as identifier inside an async function."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:117
+msgid "Can not use 'await' as identifier inside a static block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:118
+msgid "'await' is not allowed in async function parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:119
+msgid ""
+"'await' is only allowed within async functions and at the top levels of "
+"modules."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:120
+msgid "'await' is only allowed within async functions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:121
+msgid "A 'get' accesor must not have any formal parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:122
+msgid "A 'set' accesor must have exactly one formal parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:123
+msgid "A 'set' accesor function argument must not be a rest parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:124
+msgid "Classes may not have a field named 'constructor'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:125
+msgid "Classes may not have a private field named '#constructor'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:126
+msgid "Class constructor may not be an accessor."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:127
+msgid "Constructor can't be an async function."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:128
+msgid "Constructor can't be a generator."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:132
+msgid ""
+"Decorators must be placed *before* the 'export' keyword. You can set the "
+"'decoratorsBeforeExport' option to false to use the 'export @decorator class "
+"{}' syntax."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:133
+msgid ""
+"Decorators can't be used with a constructor. Did you mean '@dec class "
+"{ ... }'?"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:134
+msgid ""
+"Using the export keyword between a decorator and a class is not allowed. "
+"Please use `export @dec class` instead."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:135
+msgid "Decorators must not be followed by a semicolon."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:136
+msgid "Decorators can't be used with a static block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:137
+msgid "Deleting a private field is not allowed."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:138
+msgid ""
+"ES2015 named imports do not destructure. Use another statement for "
+"destructuring after the import."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:139
+msgid "Duplicate constructor in the same class."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:140
+msgid "Only one default export allowed per module."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:144
+msgid "Redefinition of __proto__ property."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:145
+msgid "Duplicate regular expression flag."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:146
+msgid "Rest element must be last element."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:147
+msgid "Invalid Unicode escape."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:152
+msgid "'from' is not allowed as an identifier after 'export default'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:155
+msgid "ForInStatement"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:156
+msgid "The left-hand side of a for-of loop may not be 'async'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:157
+msgid "The left-hand side of a for-of loop may not start with 'let'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:158
+msgid "Generators can only be declared at the top level or inside a block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:161
+msgid "BreakStatement"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:162
+msgid ""
+"Illegal 'use strict' directive in function with non-simple parameter list."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:163
+msgid "'return' outside of function."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:167
+msgid "Trailing comma is disallowed inside import(...) arguments."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:170
+msgid "one argument"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:171
+msgid "Cannot use new with import(...)."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:172
+msgid "`...` is not allowed in `import()`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:173
+msgid ""
+"The 'u' and 'v' regular expression flags cannot be enabled at the same time."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:174
+msgid "Invalid BigIntLiteral."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:175
+msgid "Code point out of bounds."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:176
+msgid "Invalid shorthand property initializer."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:177
+msgid "Invalid decimal."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:181
+msgid "Bad character escape sequence."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:182
+msgid "Invalid escape sequence in template."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:195
+msgid "Invalid number."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:196
+msgid "Floating-point numbers require a valid exponent after the 'e'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:200
+msgid "Invalid parenthesized assignment pattern."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:204
+msgid "Binding member expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:205
+msgid "Only properties and spread elements are allowed in record definitions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:206
+msgid "Invalid rest operator's argument."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:210
+msgid ""
+"'let' is not allowed to be used as a name in 'let' or 'const' declarations."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:211
+msgid "No line break is allowed before '=>'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:212
+msgid "Invalid regular expression flag."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:213
+msgid "A class name is required."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:214
+msgid "Only '=' operator can be used for specifying default value."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:215
+msgid "Missing semicolon."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:222
+msgid "Expecting Unicode escape sequence \\uXXXX."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:223
+msgid ""
+"Nullish coalescing operator(??) requires parens when mixing with logical "
+"operators."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:224
+msgid "The only accepted module attribute is `type`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:225
+msgid "Only string literals are allowed as module attribute values."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:235
+msgid "Multiple default clauses."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:236
+msgid "Illegal newline after throw."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:237
+msgid "Missing catch or finally clause."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:238
+msgid "Identifier directly after number."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:239
+msgid ""
+"Numeric separators are not allowed inside unicode escape sequences or hex "
+"escape sequences."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:240
+msgid ""
+"'await*' has been removed from the async functions proposal. Use Promise."
+"all() instead."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:241
+msgid "Constructors in/after an Optional Chain are not allowed."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:242
+msgid "Tagged Template Literals are not allowed in optionalChain."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:243
+msgid "'override' modifier cannot appear on a constructor declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:244
+msgid "Argument name clash."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:245
+msgid "Object pattern can't contain getter or setter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:246
+msgid "Object pattern can't contain methods."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:253
+msgid ""
+"Record expressions ending with '|}' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:254
+msgid ""
+"Record expressions starting with '{|' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:255
+msgid ""
+"Record expressions starting with '#{' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'hash'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:256
+msgid "'__proto__' is not allowed in Record expressions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:257
+msgid "Unexpected trailing comma after rest element."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:258
+msgid ""
+"In non-strict mode code, functions can only be declared at top level, inside "
+"a block, or as the body of an if statement."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:259
+msgid "Classes may not have static property named prototype."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:260
+msgid ""
+"`super()` is only valid inside a class constructor of a subclass. Maybe a "
+"typo in the method name ('constructor') or not extending another class?"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:261
+msgid "Private fields can't be accessed on super."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:262
+msgid "Decorators must be attached to a class element."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:263
+msgid ""
+"Tuple expressions ending with '|]' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:264
+msgid ""
+"Tuple expressions starting with '[|' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:265
+msgid ""
+"Tuple expressions starting with '#[' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'hash'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:266
+msgid "Unexpected argument placeholder."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:267
+msgid ""
+"Unexpected \"await\" after pipeline body; await must have parentheses in "
+"minimal proposal."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:268
+msgid "Unexpected digit after hash token."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:269
+msgid "'import' and 'export' may only appear at the top level."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:273
+msgid "Leading decorators must be attached to a class declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:274
+msgid "Lexical declaration cannot appear in a single-statement context."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:275
+msgid "`new.target` can only be used in functions or class properties."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:276
+msgid "A numeric separator is only allowed between two digits."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:277
+msgid "Unexpected private name."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:281
+msgid "'super' is only allowed in object methods and classes."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:286
+msgid ""
+"Illegal expression. Wrap left hand side or entire exponentiation in "
+"parentheses."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:287
+msgid "Binding should be performed on object property."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:288
+msgid "A decorated export must export a class declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:289
+msgid ""
+"Only expressions, functions or classes are allowed as the `default` export."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:290
+msgid "`import` can only be used in `import()` or `import.meta`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:295
+msgid "Decorators cannot be used to decorate parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:296
+msgid "Decorators cannot be used to decorate object literal properties."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:297
+msgid ""
+"'super' can only be used with function calls (i.e. super()) or in property "
+"accesses (i.e. super.prop or super[prop])."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:298
+msgid "Unterminated comment."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:299
+msgid "Unterminated regular expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:300
+msgid "Unterminated string constant."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:301
+msgid "Unterminated template."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:305
+msgid "Can not use 'yield' as identifier inside a generator."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:306
+msgid "Yield expression is not allowed in formal parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:307
+msgid "Numeric separator can not be used after leading 0."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:311
+msgid "Deleting local variable in strict mode."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:318
+msgid ""
+"In strict mode code, functions can only be declared at top level or inside a "
+"block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:319
+msgid "The only valid numeric escape in strict mode is '\\0'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:320
+msgid "Legacy octal literals are not allowed in strict mode."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:321
+msgid "'with' in strict mode."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:326
+msgid ""
+"Unexpected yield after pipeline body; any yield expression acting as Hack-"
+"style pipe body must be parenthesized due to its loose operator precedence."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:327
+#: node_modules/@babel/parser/lib/index.js:343
+msgid ""
+"Topic reference is used, but the pipelineOperator plugin was not passed a "
+"\"proposal\": \"hack\" or \"smart\" option."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:328
+msgid "Topic reference is unbound; it must be inside a pipe body."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:332
+msgid ""
+"Hack-style pipe body does not contain a topic reference; Hack-style pipes "
+"must use topic at least once."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:338
+msgid ""
+"Unexpected arrow \"=>\" after pipeline body; arrow function in pipeline body "
+"must be parenthesized."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:339
+msgid "Pipeline body may not be a comma-separated sequence expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:340
+msgid "Pipeline head should not be a comma-separated sequence expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:341
+msgid "Pipeline is in topic style but does not use topic reference."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:342
+msgid "Topic reference was used in a lexical context without topic binding."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4323
+msgid ""
+"Ambiguous expression: wrap the arrow functions in parentheses to "
+"disambiguate."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4324
+msgid ""
+"Found both `declare module.exports` and `declare export` in the same module. "
+"Modules can only have 1 since they are either an ES module or they are a "
+"CommonJS module."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4328
+msgid "The `declare` modifier can only appear on class fields."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4329
+msgid "Initializers are not allowed in fields with the `declare` modifier."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4330
+msgid "Duplicate `declare module.exports` statement."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4374
+msgid "A getter cannot have a `this` parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4375
+msgid ""
+"The `type` and `typeof` keywords on named imports can only be used on "
+"regular `import` statements. It cannot be used with `import type` or `import "
+"typeof` statements."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4376
+msgid ""
+"Explicit inexact syntax cannot appear inside an explicit exact object type."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4377
+msgid ""
+"Explicit inexact syntax cannot appear in class or interface definitions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4378
+msgid "Explicit inexact syntax cannot have variance."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4379
+msgid ""
+"Imports within a `declare module` body must always be `import type` or "
+"`import typeof`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4380
+msgid ""
+"Type parameter declaration needs a default, since a preceding type parameter "
+"declaration has a default."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4381
+msgid "`declare module` cannot be used inside another `declare module`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4382
+msgid "Cannot have a flow comment inside another flow comment."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4383
+msgid ""
+"A binding pattern parameter cannot be optional in an implementation "
+"signature."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4386
+msgid "A setter cannot have a `this` parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4387
+msgid "Spread properties cannot have variance."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4388
+msgid "A type annotation is required for the `this` parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4389
+msgid ""
+"Constructors cannot have a `this` parameter; constructors don't bind `this` "
+"like other functions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4390
+msgid "The `this` parameter cannot be optional."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4391
+msgid "The `this` parameter must be the first function parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4392
+msgid "The `this` parameter may not have a default value."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4393
+msgid ""
+"Type annotations must come before default assignments, e.g. instead of `age "
+"= 25: number` use `age: number = 25`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4394
+msgid "The type cast expression is expected to be wrapped with parenthesis."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4395
+msgid "Explicit inexact syntax must appear at the end of an inexact object."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4399
+msgid "`_` is only allowed as a type argument to call or new."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4400
+msgid "Spaces between `%` and `checks` are not allowed here."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4401
+msgid "Spread operator cannot appear in class or interface definitions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4402
+msgid "Unexpected token, expected \"number\" or \"bigint\"."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4403
+msgid "Expected an arrow function after this type parameter declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4404
+msgid ""
+"Type parameters must come after the async keyword, e.g. instead of `<T> "
+"async () => {}`, use `async <T>() => {}`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4409
+msgid "Only declares and type imports are allowed inside declare module."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4410
+msgid "Unterminated flow-comment."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7584
+msgid "JSX attributes must only be assigned a non-empty expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7588
+msgid "Expected corresponding JSX closing tag for <>."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7589
+msgid ""
+"Sequence expressions cannot be directly nested inside JSX. Did you mean to "
+"wrap it in parentheses (...)?"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7594
+msgid "JSX value should be either an expression or a quoted JSX text."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7595
+msgid "Unterminated JSX contents."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7596
+msgid ""
+"Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a "
+"JSX fragment <>...</>?"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "num"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "string"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "template_head"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "comment2"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "regexp"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "operator"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "eof"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "expand"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "punc"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "arrow"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "name"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "atom"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "keyword"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "("
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid ")"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid ":"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid ";"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid ","
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "]"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "}"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "{"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "["
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "Program"
+msgstr ""
+
+#: node_modules/terser/dist/bundle.min.js:1
+msgid "BlockStatement"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:105
+msgid "is not a finite number"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:172
+#: node_modules/webidl-conversions/lib/index.js:188
+msgid "is not a finite floating-point value"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:198
+msgid "is outside the range of a single-precision floating-point value"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:228
+msgid "is a symbol, which cannot be converted to a string"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:239
+msgid "is not a valid ByteString"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:276
+msgid "is not an object"
+msgstr ""
+
+#: node_modules/webidl-conversions/lib/index.js:288
+msgid "is not a function"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""

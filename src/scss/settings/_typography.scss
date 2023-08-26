@@ -1,0 +1,133 @@
+$global-weight-thin: 100;
+$global-weight-extralight: 200;
+$global-weight-light: 300;
+$global-weight-normal: 400;
+$global-weight-medium: 500;
+$global-weight-semibold: 600;
+$global-weight-bold: 700;
+$global-weight-extrabold: 800;
+$global-weight-black: 900;
+
+$font-sizing: (
+	small: (
+		"h0": 3.125rem,
+		"h1": 2.375rem,
+		"h2": 2rem,
+		"h3": 1.75rem,
+		"h4": 1.25rem,
+		"h5": 1.125rem,
+		"h6": 1rem,
+		"p": 1rem,
+	),
+	medium: (
+		"h0": 4.1875rem,
+		"h1": 3.125rem,
+		"h2": 2.375rem,
+		"h3": 2rem,
+		"h4": 1.75rem,
+		"h5": 1.1875rem,
+		"h6": 1rem,
+		"p": 1rem,
+	),
+	large: (
+		"h0": 5.625rem, // 90px
+		"h1": 4.1875rem, // 67px
+		"h2": 3.125rem, // 50px
+		"h3": 2.375rem, // 38px
+		"h4": 1.75rem, // 28px
+		"h5": 1.3125rem, // 21px
+		"h6": 1rem, // 16px
+		"p": 1.125rem, // 18px
+	),
+);
+
+$header-line-height: 1.1;
+$blurb-line-height: 1.4; // To be used in the hero content copy
+$body-line-height: 1.6;
+
+// 4. Body Font Settings
+$body-font-family: 'Roboto', sans-serif;
+$body-font-weight: $global-weight-normal;
+$body-font-color: $black;
+
+// 5. Header Font Settings
+$header-font-family: "Times New Roman", Times, serif;
+$header-font-weight: $global-weight-normal;
+$header-font-color: $black;
+
+$overline-letter-spacing: normal;
+
+$fa-font-family: "Font Awesome 6 Pro";
+
+.full-width-text {
+	@include section-spacing-override(bottom, margin);
+	p {
+		margin-bottom: 0;
+	}
+}
+
+// Begin Typography Settings:
+
+h1,h2,h3,h4,h5,h6 {
+	color: $header-font-color;
+	font-family: $header-font-family;
+	font-weight: $header-font-weight;
+	line-height: $header-line-height;
+	margin-bottom: 1rem;
+}
+
+p, span, div {
+	color: $body-font-color;
+	font-family: $body-font-family;
+	font-weight: $body-font-weight;
+	line-height: $body-line-height;
+}
+
+a, li {
+	font-family: $body-font-family;
+}
+
+strong {
+	font-weight: $global-weight-bold;
+}
+
+.show-as-h0 {
+	@include text-size(h0);
+}
+
+h1, .show-as-h1 {
+	@include text-size(h1);
+}
+
+h2, .show-as-h2 {
+	@include text-size(h2);
+}
+
+h3, .show-as-h3 {
+	@include text-size(h3);
+}
+
+h4, .show-as-h4 {
+	@include text-size(h4);
+}
+
+h5, .show-as-h5 {
+	@include text-size(h5);
+}
+
+h6, .show-as-h6 {
+	@include text-size(h6);
+}
+
+p, span {
+	@include text-size(p);
+}
+
+.show-as-h1, .show-as-h2, .show-as-h3, .show-as-h4, .show-as-h5, .show-as-h6 {
+	font-weight: $header-font-weight;
+}
+
+.overline {
+	letter-spacing: $overline-letter-spacing;
+	text-transform: uppercase;
+}
